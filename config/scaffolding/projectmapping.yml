@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: CEVAProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: InvokeFlow
+    type: workflow
+    uid: flad6c4c0c610a478692a2d7670786726b
+    stepId: a0
+    reference: wm.sterling.b2b.pub:invokeService
