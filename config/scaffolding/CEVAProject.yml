@@ -8,10 +8,16 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: WmSterlingB2B
+  version: "1.6"
   gitServerName: MJANGit
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+security:
+- name: WmSterlingB2B
+  allowedServices:
+  - pub.flow:invokeService
+  javaServiceSetting: NONE
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
